@@ -10,7 +10,7 @@ Documento para definir os padrões e boas práticas a serem seguidos no desenvol
   - 📁 `components/`       - Componentes reutilizáveis
     - 📁 `Button/`
       - `Button.tsx`
-      - `Button.module.css`
+      - `Button.module.scss`
     - `index.ts`
   - 📁 `pages/`            - Páginas (rotas)
   - 📁 `hooks/`            - Custom hooks (useSomething)

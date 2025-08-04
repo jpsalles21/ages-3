@@ -33,9 +33,16 @@ Documento para definir os padrões e boas práticas a serem seguidos no desenvol
 ### ✅ Componentes React
 - Nome: `UserCard.tsx`
 - Componente com arrow function:
+- Props com Interface no componente
   ```tsx
   // components/index.ts
-  const UserCard () => {
+
+  interface UserCardProps { 
+    title: string 
+    description?: string // (adicione o ? caso seja opcional)
+  }
+  
+  const UserCard ({title, description}: UserCardProps) => {
     // conteúdo
   };
 

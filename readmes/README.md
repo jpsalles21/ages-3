@@ -35,15 +35,20 @@ Documento para definir os padrões e boas práticas a serem seguidos no desenvol
 - Componente com arrow function:
 - Props com Interface no componente
   ```tsx
-  // components/index.ts
+  // components/UserCard.tsx
 
   interface UserCardProps { 
-    title: string 
-    description?: string // (adicione o ? caso seja opcional)
+    title: string;
+    description?: string; // opcional
   }
-  
-  const UserCard ({title, description}: UserCardProps) => {
-    // conteúdo
+
+  const UserCard = ({ title, description }: UserCardProps) => {
+    return (
+      <div>
+        <h2>{title}</h2>
+        <p>{description}</p>
+      </div>
+    );
   };
 
   export default UserCard;

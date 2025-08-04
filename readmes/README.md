@@ -99,7 +99,6 @@ Este projeto utiliza **SCSS modules** com organização modularizada e padrões 
 
 ## 📄 Documentação Interna
 
-- Cada pasta importante deve conter um `README.md` explicando sua função
 - Comentários só quando **realmente necessários** (código limpo deve se explicar)
 
 ---

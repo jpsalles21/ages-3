@@ -54,10 +54,15 @@ Documento para definir os padrões e boas práticas a serem seguidos no desenvol
   export default UserCard;
   ```
 - Exportação:
+  - Dentro da pasta components, teremos um "index.ts", que será responsável pela exportação dos nossos componentes, facilitando o uso
   ```tsx
   // components/index.ts
   export { default as UserCard} from './UserCard';
   ```
+- Assim, quando formos usar o botão, importamos ele assim:
+```tsx
+import { Button } from '@components'
+```  
 
 ---
 

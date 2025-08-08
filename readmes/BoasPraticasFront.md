@@ -17,7 +17,7 @@ Documento para definir os padrões e boas práticas a serem seguidos no desenvol
   - 📁 `contexts/`         - React Context API
   - 📁 `services/`         - Comunicação com API
   - 📁 `types/`            - Tipagens globais
-  - 📁 `utils/`            - Funções auxiliares
+  - 📁 `utils/`            - Funções auxiliares e reutilizaveis entre vários componentes
 
 
 
